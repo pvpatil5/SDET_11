@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-13T16:56:48 IST" name="Default suite" finished-at="2022-12-13T16:56:49 IST" duration-ms="1655">
+    <groups>
+    </groups>
+    <test started-at="2022-12-13T16:56:48 IST" name="Default test" finished-at="2022-12-13T16:56:49 IST" duration-ms="1655">
+      <class name="DDT.ReadDatafrom_Excel3">
+        <test-method signature="readData_excel()[pri:0, instance:DDT.ReadDatafrom_Excel3@6d4d66d2]" started-at="2022-12-13T16:56:48 IST" name="readData_excel" finished-at="2022-12-13T16:56:49 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData_excel -->
+      </class> <!-- DDT.ReadDatafrom_Excel3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

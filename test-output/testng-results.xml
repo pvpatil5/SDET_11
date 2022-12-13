@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-13T16:56:48 IST" name="Default suite" finished-at="2022-12-13T16:56:49 IST" duration-ms="1655">
+  <suite started-at="2022-12-13T17:16:05 IST" name="Default suite" finished-at="2022-12-13T17:16:05 IST" duration-ms="894">
     <groups>
     </groups>
-    <test started-at="2022-12-13T16:56:48 IST" name="Default test" finished-at="2022-12-13T16:56:49 IST" duration-ms="1655">
-      <class name="DDT.ReadDatafrom_Excel3">
-        <test-method signature="readData_excel()[pri:0, instance:DDT.ReadDatafrom_Excel3@6d4d66d2]" started-at="2022-12-13T16:56:48 IST" name="readData_excel" finished-at="2022-12-13T16:56:49 IST" duration-ms="1532" status="PASS">
+    <test started-at="2022-12-13T17:16:05 IST" name="Default test" finished-at="2022-12-13T17:16:05 IST" duration-ms="894">
+      <class name="DDT.WriteData_Excel">
+        <test-method signature="writeDatainExcelsheet()[pri:0, instance:DDT.WriteData_Excel@6d4d66d2]" started-at="2022-12-13T17:16:05 IST" name="writeDatainExcelsheet" finished-at="2022-12-13T17:16:05 IST" duration-ms="853" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readData_excel -->
-      </class> <!-- DDT.ReadDatafrom_Excel3 -->
+        </test-method> <!-- writeDatainExcelsheet -->
+      </class> <!-- DDT.WriteData_Excel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

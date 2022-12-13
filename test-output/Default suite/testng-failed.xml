@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DDT.ReadDatafrom_Excel">
+      <class name="DDT.WriteData_Excel">
         <methods>
-          <include name="readData_excel"/>
+          <include name="writeDatainExcelsheet"/>
         </methods>
-      </class> <!-- DDT.ReadDatafrom_Excel -->
+      </class> <!-- DDT.WriteData_Excel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,12 +11,18 @@ import org.testng.annotations.Test;
 
 public class ReadDatafrom_Excel3
 {
+	/*
+	 *Description : In this class we are reading the entire excel sheet 
+	 */
+	
+	
 	@Test
 	public void readData_excel() throws EncryptedDocumentException, IOException {
 		FileInputStream fileInputStream = new FileInputStream("../SDET11/data/SDET11.xlsx");
 
 		Workbook workbook = WorkbookFactory.create(fileInputStream);
 		Sheet sheet = workbook.getSheet("Sheet1");
+		//lastrow = this method gives u last row from excel sheet
 		int lastrow=sheet.getLastRowNum();
 		int lastcell=sheet.getRow(1).getLastCellNum();
 		System.out.println(lastcell);

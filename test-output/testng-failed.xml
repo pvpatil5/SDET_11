@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DDT.WriteData_Excel">
+      <class name="com.sales.pctraders.customer.TC_113_CreateCustomerTest">
         <methods>
-          <include name="writeDatainExcelsheet"/>
+          <include name="createcustmer"/>
         </methods>
-      </class> <!-- DDT.WriteData_Excel -->
+      </class> <!-- com.sales.pctraders.customer.TC_113_CreateCustomerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

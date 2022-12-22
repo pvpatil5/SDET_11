@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-20T13:53:06 IST" name="Default suite" finished-at="2022-12-20T13:53:11 IST" duration-ms="5056">
+  <suite started-at="2022-12-22T16:33:33 IST" name="Default suite" finished-at="2022-12-22T16:33:34 IST" duration-ms="695">
     <groups>
     </groups>
-    <test started-at="2022-12-20T13:53:06 IST" name="Default test" finished-at="2022-12-20T13:53:11 IST" duration-ms="5056">
+    <test started-at="2022-12-22T16:33:33 IST" name="Default test" finished-at="2022-12-22T16:33:34 IST" duration-ms="695">
       <class name="com.sales.pctraders.customer.TC_113_CreateCustomerTest">
-        <test-method signature="createcustmer()[pri:0, instance:com.sales.pctraders.customer.TC_113_CreateCustomerTest@202b0582]" started-at="2022-12-20T13:53:06 IST" name="createcustmer" finished-at="2022-12-20T13:53:11 IST" duration-ms="4998" status="PASS">
+        <test-method signature="createcustmer()[pri:0, instance:com.sales.pctraders.customer.TC_113_CreateCustomerTest@76b1e9b8]" started-at="2022-12-22T16:33:33 IST" name="createcustmer" finished-at="2022-12-22T16:33:34 IST" duration-ms="648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createcustmer -->

@@ -15,8 +15,8 @@ public class ReadData_propfile
 		return value;
 
 	}
-	public String redadatafrompropfile_MAnu(String key) throws IOException {
-		FileInputStream fileInputStream = new FileInputStream(IAutoConstants.PROPFILEPATH2);
+	public String redadatafrompropfile(String path,String key) throws IOException {
+		FileInputStream fileInputStream = new FileInputStream(path);
 		Properties properties = new Properties();
 		properties.load(fileInputStream);
 		String value=properties.getProperty(key);

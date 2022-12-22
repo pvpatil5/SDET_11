@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sales.pctraders.customer.TC_113_CreateCustomerTest">
+      <class name="practice.Demo">
         <methods>
-          <include name="createcustmer"/>
+          <include name="launchbrowser"/>
         </methods>
-      </class> <!-- com.sales.pctraders.customer.TC_113_CreateCustomerTest -->
+      </class> <!-- practice.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

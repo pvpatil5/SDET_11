@@ -17,8 +17,6 @@ public class TC_113_CreateCustomerTest {
 	@Test
 	public void createcustmer() throws IOException 
 	{
-		
-
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -70,8 +68,6 @@ public class TC_113_CreateCustomerTest {
 
 		driver.findElement(By.xpath("//img")).click();
 		driver.findElement(By.xpath("//i[@class='fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400']")).click();
-
-
 		driver.findElement(By.xpath("//a[.='Logout']")).click();
 
 	}

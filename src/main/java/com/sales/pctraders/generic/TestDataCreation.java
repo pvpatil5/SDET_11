@@ -26,7 +26,9 @@ public class TestDataCreation {
 		return faker.phoneNumber().cellPhone();
 	}
 	
-	
+	public String getCompanayName() {
+		return faker.company().name();
+	}
 	
 	
 	

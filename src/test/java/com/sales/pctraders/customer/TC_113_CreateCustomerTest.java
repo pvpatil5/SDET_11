@@ -1,7 +1,6 @@
 package com.sales.pctraders.customer;
 
 import java.io.IOException;
-import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,6 +10,7 @@ import org.testng.annotations.Test;
 import com.sales.pctraders.generic.ReadData_Excel;
 import com.sales.pctraders.generic.ReadData_propfile;
 import com.sales.pctraders.generic.TestDataCreation;
+import com.sales.pctraders.generic.WebDriverUtils;
 
 public class TC_113_CreateCustomerTest {
 
@@ -18,8 +18,12 @@ public class TC_113_CreateCustomerTest {
 	public void createcustmer() throws IOException 
 	{
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		WebDriverUtils webDriverUtils = new WebDriverUtils(driver);
+		
+		webDriverUtils.maximizewindow();
+		webDriverUtils.waitforpageload();
+		
+		
 		ReadData_propfile data_propfile = new ReadData_propfile();
 		String url=	data_propfile.redadatafrompropfile("url");
 		driver.get(url);
@@ -31,7 +35,7 @@ public class TC_113_CreateCustomerTest {
 
 		//Afetr Logging in alert is appering
 
-		driver.switchTo().alert().accept();
+		webDriverUtils.acceptAlert();
 
 		driver.findElement(By.xpath("//span[text()='Customer']")).click();
 

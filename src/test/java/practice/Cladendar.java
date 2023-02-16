@@ -36,7 +36,7 @@ public class Cladendar {
 
 		driver.findElement(By.xpath("//span[text()='DEPARTURE']")).click();
 
-		driver.findElement(By.xpath("//div[@aria-label='"+currentdate+"']")).click();
+	//	driver.findElement(By.xpath("//div[@aria-label='"+currentdate+"']")).click();
 
 
 	}

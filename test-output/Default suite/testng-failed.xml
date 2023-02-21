@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.DataProvider_MMT">
+      <class name="fw.CreateResource">
         <methods>
-          <include name="dataproviver" invocation-numbers="1 2"/>
+          <include name="createresourcewithemail"/>
+          <include name="launch"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- practice.DataProvider_MMT -->
+      </class> <!-- fw.CreateResource -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
